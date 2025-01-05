@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import { pretendardFont } from '@app/fonts';
 
 import './globals.css';
 // import * as styles from "./common.css";
@@ -15,8 +16,8 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
-			<body>{children}</body>
+		<html lang="ko">
+			<body className={pretendardFont.className}>{children}</body>
 		</html>
 	);
 }
