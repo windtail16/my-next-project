@@ -1,20 +1,22 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import React from 'react';
+import type { Metadata } from 'next';
+
+import './globals.css';
 // import * as styles from "./common.css";
 
 export const metadata: Metadata = {
-  title: "Front-End Developer Hoon",
-  description: "Hello next app",
+	title: 'Front-End Developer Hoon',
+	description: 'Hello next app',
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body>{children}</body>
+		</html>
+	);
 }

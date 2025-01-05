@@ -1,5 +1,5 @@
-import ResumeClient from "./client";
+import ResumeClient from './client';
 
 export default function page() {
-  return <ResumeClient />;
+	return <ResumeClient />;
 }

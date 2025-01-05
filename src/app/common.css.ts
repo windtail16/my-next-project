@@ -1,5 +1,5 @@
-import { style, globalStyle } from "@vanilla-extract/css";
+import { style } from '@vanilla-extract/css';
 
 export const mainBody = style({
-  fontSize: "100%",
+	fontSize: '100%',
 });
