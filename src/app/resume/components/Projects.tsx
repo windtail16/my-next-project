@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Projects() {
   return (
     <article className="grid grid-cols-1 md:grid-cols-6">

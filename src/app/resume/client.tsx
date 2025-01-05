@@ -1,4 +1,3 @@
-import React from "react";
 import Bio from "./components/Bio";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
