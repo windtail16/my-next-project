@@ -51,18 +51,18 @@ export default function Skills() {
 						각각의 차이점은 알아야한다고 생각하여 Angular, Vue, React 각
 						웹프레임워크와 firebase를 연동하여 간단한 to-do list를 만들어보며
 						학습을 하였습니다. Angular는 몇건의 실무 유지보수 경험이 있고
-						VueJS는 구축과 리뉴얼 경험을 하였으며 최근에는 React와 Next를 주로
-						사용하고 있습니다.
+						VueJS는 구축과 리뉴얼 경험을 하였으며 최근에는 React와 Next를
+						실무에서 주로 사용하고 있습니다.
 					</p>
 					<p className="leading-relaxed mb-1">
-						실무에서 패키지 매니저는 PNPM을 선호하고 번들러는 Webpack을 사용
-						합니다. <br />
-						개인용도로 pnpm, vite 등을 학습하며 다뤄보고 있습니다.
+						패키지 매니저는 PNPM을 선호하고 번들러는 Webpack을 사용 합니다.
+						<br />
+						개인적으로 vite 등을 학습하며 다뤄보고 있습니다.
 					</p>
 					<p className="leading-relaxed mb-1">
 						Bootstrap은 오래전 부터 responsive wep의 참고용으로 종종 사용하였고
 						최근 유행하는 tailwind를 관심 있게 살펴 보고는 있으나, 스타일링은
-						프레임워크에 크게 관여 받지 않고 상황에 따라 활용 하고 있습니다.
+						프레임워크에 크게 관여 구애 않고 상황에 따라 활용 하고 있습니다.
 					</p>
 				</li>
 				<li>
@@ -71,7 +71,7 @@ export default function Skills() {
 					</h4>
 					<ul className="list-disc px-5 mt-2">
 						<li>
-							종교, 민족, 성별, 경험, 정치적 성향 등 서로의 차이를 존중하며
+							종교, 민족, 성별, 경험, 정치적 견해 등 서로의 차이를 존중하며
 							간섭하지 않습니다.
 						</li>
 						<li>
@@ -79,9 +79,13 @@ export default function Skills() {
 							있습니다.
 						</li>
 						<li>
-							술, 담배를 하지 않고 낯을 조금 가려서 종종 차가운 사람 인줄 오해
-							받지만 시간이 지나면 활발하고 밝은 성격 덕분에 어디에서도 잘
+							술, 담배를 하지 않고 낯을 조금 가려서 종종 곁을 주지 않는 사람
+							인줄 오해 받지만 정이 많고 활발하고 밝은 성격 덕분에 어디에서도 잘
 							지내는 편 입니다.
+						</li>
+						<li>
+							저는 서로의 입장과 업무 특성을 이해하려고 노력하며 원활한 소통을
+							중요시합니다.
 						</li>
 					</ul>
 				</li>

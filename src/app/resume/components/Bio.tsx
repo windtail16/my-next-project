@@ -3,7 +3,7 @@ export default function Bio() {
 		<article className="p-5">
 			<h1 className="text-xl font-semibold">Front-end Developer</h1>
 			<h2 className="text-5xl font-bold leading-tight">Sanghoon Bae</h2>
-			<div className="grid grid-cols-1 md:mt-6 md:grid-cols-6 gap-4">
+			<div className="grid grid-cols-1 md:mt-6 mt-2 md:grid-cols-6 gap-4">
 				<div className="md:col-span-4 text-slate-600">
 					<p className="text-lg leading-relaxed">
 						저는 프론트엔드 엔지니어로 일하고 있는 배상훈 입니다. <br />
@@ -37,7 +37,6 @@ export default function Bio() {
 					</div>
 				</div>
 			</div>
-
 			<div className="my-5 h-1 rounded bg-indigo-500"></div>
 		</article>
 	);
