@@ -1,6 +1,6 @@
 import React from "react";
 
-function Educations() {
+export default function Educations() {
   return (
     <article className="grid grid-cols-1 md:grid-cols-6">
       <div className="px-5 py-2 text-left md:col-span-2 md:text-right">
@@ -52,5 +52,3 @@ function Educations() {
     </article>
   );
 }
-
-export default Educations;

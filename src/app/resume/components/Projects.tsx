@@ -1,6 +1,6 @@
 import React from "react";
 
-function Projects() {
+export default function Projects() {
   return (
     <article className="grid grid-cols-1 md:grid-cols-6">
       <div className="px-5 py-2 text-left md:col-span-2 md:text-right">
@@ -40,5 +40,3 @@ function Projects() {
     </article>
   );
 }
-
-export default Projects;

@@ -1,4 +1,4 @@
-const Bio = () => {
+export default function Bio() {
   return (
     <article className="p-5">
       <h1 className="text-xl font-semibold">Front-end Developer</h1>
@@ -41,6 +41,4 @@ const Bio = () => {
       <div className="my-5 h-1 rounded bg-indigo-500"></div>
     </article>
   );
-};
-
-export default Bio;
+}

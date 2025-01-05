@@ -1,6 +1,6 @@
 import React from "react";
 
-function Skills() {
+export default function Skills() {
   return (
     <article className="grid grid-cols-1 md:grid-cols-6">
       <div className="px-5 py-2 text-left md:col-span-2 md:text-right">
@@ -91,5 +91,3 @@ function Skills() {
     </article>
   );
 }
-
-export default Skills;
