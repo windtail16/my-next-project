@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Bio() {
 	return (
 		<article className="p-5">
@@ -27,12 +29,13 @@ export default function Bio() {
 							</a>
 						</p>
 						<p>
-							<a
+							<Link
 								className="font-medium text-black underline hover:text-opacity-75"
-								href="http://windtail16.com"
+								href="https://windtail16.github.io"
+								target="_Blank"
 							>
-								http://windtail16.com
-							</a>
+								https://windtail16.github.io
+							</Link>
 						</p>
 					</div>
 				</div>

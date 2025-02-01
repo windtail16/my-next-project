@@ -1,11 +1,11 @@
-import Bio from './components/Bio';
-import Work from './components/Work';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Educations from './components/Educations';
-import Footer from './components/Footer';
+import Bio from './_components/Bio';
+import Work from './_components/Work';
+import Projects from './_components/Projects';
+import Skills from './_components/Skills';
+import Educations from './_components/Educations';
+import Footer from './_components/Footer';
 
-export default function client() {
+export default function ResumeClient() {
 	return (
 		<>
 			<main className="min-h-dvh min-w-[320px] bg-white text-gray-900">
