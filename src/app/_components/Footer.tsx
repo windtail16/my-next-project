@@ -1,5 +1,3 @@
-import { div } from 'three/tsl';
-
 export default function Footer() {
 	return (
 		<div className="pt-5 pb-5 bg-slate-600">
